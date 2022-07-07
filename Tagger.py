@@ -31,7 +31,7 @@ async def cancel(event):
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await message.reply_photo("https://telegra.ph/file/80fc7ed03e6c3388e6a26.jpg", caption="{BOT_USERNAME} 𝚀𝚛𝚞𝚙𝚍𝚊𝚔𝚒 𝚑𝚎𝚛𝚔𝚎𝚜ｪ 𝚝𝚊𝚐 𝚎𝚍𝚎 𝚋ｪ𝚕ｪ𝚛𝚎𝚖 𝚎𝚕𝚊𝚟𝚎 𝚖𝚎𝚕𝚞𝚖𝚊𝚝 𝚞𝚌𝚞𝚗 /help kilikleyin.✨️")
-                       buttons=(                     
+                                       
 	
                       
                   
