@@ -39,27 +39,27 @@ async def start(event):
                       
                   
 			   
-		      [Button.url('🎉  𝗕𝗲𝗻𝗶 𝗚𝗿𝘂𝗯𝗮 𝗘𝗸𝗹𝗲  🎉', 'https://t.me/MytTagBot?startgroup=a')],
-                      [Button.url(' 𝗗𝗲𝘀𝘁𝗲𝗸 𝗚𝗿𝘂𝗯𝘂  💫',  'https://t.me/lordchattt')], 
-                      [Button.url('🐊  𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿  ', 'https://t.me/nevarisoyumiste')],
+		      [Button.url(' 𝗕𝗲𝗻𝗶 𝗚𝗿𝘂𝗯𝗮 𝗘𝗸𝗹𝗲  ', 'https://t.me/MytTagBot?startgroup=a')],
+                      [Button.url(' 𝗗𝗲𝘀𝘁𝗲𝗸 𝗚𝗿𝘂𝗯𝘂  ',  'https://t.me/lordchattt')], 
+                      [Button.url('  𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿  ', 'https://t.me/nevarisoyumiste')],
                     ),
                     link_preview=False
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "📝 **ᴇᴛɪᴋᴇᴛ ᴛᴀɢɢᴇʀ ᴋᴏᴍᴜᴛʟᴀʀɪ **\n\n**» /utag < ᴍᴇsᴀᴊɪɴɪᴢ > \nɢʀᴜʙᴛᴀᴋɪ ᴋᴜʟʟᴀɴɪᴄɪʟᴀʀᴀ 5-ʟɪ ᴇᴛɪᴋᴇᴛ ᴀᴛᴀʀ .  .  !**\n\n**» /tag  < ᴍᴇsᴀᴊɪɴɪᴢ > \nɢʀᴜʙᴛᴀᴋɪ ᴋᴜʟʟᴀɴɪᴄɪʟᴀʀᴀ ᴛᴇᴋ ᴛᴇᴋ ᴇᴛɪᴋᴇᴛ ᴀᴛᴀʀ . . !**\n\n**» /cancel => ᴇᴛɪᴋᴇᴛʟᴇᴍᴇ ɪsʟᴇᴍɪɴɪ ᴅᴜʀᴅᴜʀᴜʀ . . !**"
+  helptext = "📝 **ᴇᴛɪᴋᴇᴛ ᴛᴀɢɢᴇʀ ᴋᴏᴍᴜᴛʟᴀʀɪ **\n\n**» /ctag < ᴍᴇsᴀᴊɪɴɪᴢ > \nɢʀᴜʙᴛᴀᴋɪ ᴋᴜʟʟᴀɴɪᴄɪʟᴀʀᴀ 5-ʟɪ ᴇᴛɪᴋᴇᴛ ᴀᴛᴀʀ .  .  !**\n\n**» /tag  < ᴍᴇsᴀᴊɪɴɪᴢ > \nɢʀᴜʙᴛᴀᴋɪ ᴋᴜʟʟᴀɴɪᴄɪʟᴀʀᴀ ᴛᴇᴋ ᴛᴇᴋ ᴇᴛɪᴋᴇᴛ ᴀᴛᴀʀ . . !**\n\n**» /cancel => ᴇᴛɪᴋᴇᴛʟᴇᴍᴇ ɪsʟᴇᴍɪɴɪ ᴅᴜʀᴅᴜʀᴜʀ . . !**"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('🎉  𝗕𝗲𝗻𝗶 𝗚𝗿𝘂𝗯𝗮 𝗘𝗸𝗹𝗲  🎉', 'https://t.me/MytTagBot?startgroup=a')],
-                      [Button.url('📝  𝗗𝗲𝘀𝘁𝗲𝗸 𝗚𝗿𝘂𝗯𝘂  📝',  'https://t.me/lordchattt')],
-                      [Button.url('🐊 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿  🐊', 'https://t.me/nevarisoyumiste')],
+                      [Button.url('  𝗕𝗲𝗻𝗶 𝗚𝗿𝘂𝗯𝗮 𝗘𝗸𝗹𝗲  ', 'https://t.me/MytTagBot?startgroup=a')],
+                      [Button.url('  𝗗𝗲𝘀𝘁𝗲𝗸 𝗚𝗿𝘂𝗯𝘂  ',  'https://t.me/lordchattt')],
+                      [Button.url(' 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿  ', 'https://t.me/nevarisoyumiste')],
                     ),
                     link_preview=False
                    )
 	
 @client.on(events.NewMessage(pattern="^/reklam$"))
 async def help(event):
-  helptext = "**📝 ᴇᴛɪᴋᴇᴛ ᴛᴀɢɢᴇʀ ᴋᴏᴍᴜᴛʟᴀʀɪ\n\n» /utag < ᴍᴇsᴀᴊɪɴɪᴢ > => ɢʀᴜʙᴛᴀᴋɪ ᴋᴜʟʟᴀɴɪᴄɪʟᴀʀᴀ 5-ʟɪ ᴇᴛɪᴋᴇᴛ ᴀᴛᴀʀ .  .  !\n» /tag  < ᴍᴇsᴀᴊɪɴɪᴢ > => ɢʀᴜʙᴛᴀᴋɪ ᴋᴜʟʟᴀɴɪᴄɪʟᴀʀᴀ ᴛᴇᴋ ᴛᴇᴋ ᴇᴛɪᴋᴇᴛ ᴀᴛᴀʀ . . !\n» /cancel => ᴇᴛɪᴋᴇᴛʟᴇᴍᴇ ɪsʟᴇᴍɪɴɪ ᴅᴜʀᴅᴜʀᴜʀ . . !\n\n✵ ʙɪʀ ᴄᴏᴋ ᴏᴢᴇʟʟɪɢᴇ sᴀʜɪᴘ @MytTagBot 'ᴜ ɢʀᴜʙᴜɴᴜᴢᴀ ʀᴀʜᴀᴛʟɪᴋʟᴀ ᴇᴋʟᴇʏɪᴘ ᴋᴜʟʟᴀɴᴀʙɪʟɪʀsɪɴɪᴢ . . ! **"
+  helptext = "**📝 ᴇᴛɪᴋᴇᴛ ᴛᴀɢɢᴇʀ ᴋᴏᴍᴜᴛʟᴀʀɪ\n\n» /utag < ᴍᴇsᴀᴊɪɴɪᴢ > => 𝚐𝚛𝚞𝚙𝚍𝚊𝚔𝚒 𝚞𝚜𝚎𝚛𝚕𝚎𝚛ｪ 5-𝚕ｪ 𝚝𝚊𝚐 𝚎𝚍𝚎𝚛 .  .  !\n» /tag  < ᴍᴇsᴀᴊɪɴɪᴢ > => 𝚐𝚛𝚞𝚙𝚍𝚊𝚔𝚒 𝚞𝚜𝚎𝚛𝚕𝚎𝚛ｪ 𝚝𝚎𝚔 𝚝𝚎𝚔 𝚝𝚊𝚐 𝚎𝚍𝚎𝚛 . . !\n» /dayan => 𝚝𝚊𝚐ｪ 𝚍𝚊𝚢𝚊𝚗𝚍ｪ𝚛𝚊𝚛. . !\n\n✵ ʙɪʀ ᴄᴏᴋ ᴏᴢᴇʟʟɪɢᴇ sᴀʜɪᴘ @CTaggerBot 'ᴜ ɢʀᴜʙᴜɴᴜᴢᴀ ʀᴀʜᴀᴛʟɪᴋʟᴀ ᴇᴋʟᴇʏɪᴘ ᴋᴜʟʟᴀɴᴀʙɪʟɪʀsɪɴɪᴢ . . ! **"
   await event.reply(helptext,
                     buttons=(
                       [Button.url('🎉  𝗕𝗼𝘁𝘂 𝗚𝗿𝘂𝗯𝗮 𝗘𝗸𝗹𝗲  🎉', 'https://t.me/MytTagBot?startgroup=a')],
@@ -69,7 +69,7 @@ async def help(event):
 	
 	
 
-@client.on(events.NewMessage(pattern='^(?i)/cancel'))
+@client.on(events.NewMessage(pattern='^(?i)/dayan'))
 async def cancel(event):
   global emoji_calisan
   emoji_calisan.remove(event.chat_id)
@@ -80,7 +80,7 @@ emoji = " ❤️ 🧡 💛 💚 💙 💜 🖤 🤍 🤎 🙂 🙃 😉 😌 �
         "😻 😼 😽 🙀 😿 😾 🔞 🌹 ".split (" ")
 
 
-@client.on(events.NewMessage(pattern="^/jssjejs ?(.*)"))
+@client.on(events.NewMessage(pattern="^/emojitag ?(.*)"))
 async def mentionall(event):
   global emoji_calisan
   if event.is_private:
@@ -140,13 +140,13 @@ async def mentionall(event):
         usrtxt = ""
 
 
-@client.on(events.NewMessage(pattern='^(?i)/cancel'))
+@client.on(events.NewMessage(pattern='^(?i)/dayan'))
 async def cancel(event):
   global emoji_calisan
   emoji_calisan.remove(event.chat_id)
 
 
-@client.on(events.NewMessage(pattern="^/utag ?(.*)"))
+@client.on(events.NewMessage(pattern="^/ctag ?(.*)"))
 async def mentionall(event):
   global anlik_calisan
   if event.is_private:
@@ -205,7 +205,7 @@ async def mentionall(event):
         usrnum = 0
         usrtxt = ""
 
-@client.on(events.NewMessage(pattern='^(?i)/cancel'))
+@client.on(events.NewMessage(pattern='^(?i)/dayan'))
 async def cancel(event):
   global anlik_calisan
   anlik_calisan.remove(event.chat_id)
@@ -270,7 +270,7 @@ async def mentionall(event):
         usrnum = 0
         usrtxt = ""
 
-@client.on(events.NewMessage(pattern='^(?i)/cancel'))
+@client.on(events.NewMessage(pattern='^(?i)/dayan'))
 async def cancel(event):
   global tekli_calisan
   tekli_calisan.remove(event.chat_id)
