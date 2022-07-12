@@ -59,7 +59,7 @@ async def help(event):
 	
 @client.on(events.NewMessage(pattern="^/reklam$"))
 async def help(event):
-  helptext = "**📝 ᴇᴛɪᴋᴇᴛ ᴛᴀɢɢᴇʀ ᴋᴏᴍᴜᴛʟᴀʀɪ\n\n» /utag < ᴍᴇsᴀᴊɪɴɪᴢ > => 𝚐𝚛𝚞𝚙𝚍𝚊𝚔𝚒 𝚞𝚜𝚎𝚛𝚕𝚎𝚛ｪ 5-𝚕ｪ 𝚝𝚊𝚐 𝚎𝚍𝚎𝚛 .  .  !\n» /tag  < ᴍᴇsᴀᴊɪɴɪᴢ > => 𝚐𝚛𝚞𝚙𝚍𝚊𝚔𝚒 𝚞𝚜𝚎𝚛𝚕𝚎𝚛ｪ 𝚝𝚎𝚔 𝚝𝚎𝚔 𝚝𝚊𝚐 𝚎𝚍𝚎𝚛 . . !\n» /dayan => 𝚝𝚊𝚐ｪ 𝚍𝚊𝚢𝚊𝚗𝚍ｪ𝚛𝚊𝚛. . !\n\n✵ ʙɪʀ ᴄᴏᴋ ᴏᴢᴇʟʟɪɢᴇ sᴀʜɪᴘ @CTaggerBot 'ᴜ ɢʀᴜʙᴜɴᴜᴢᴀ ʀᴀʜᴀᴛʟɪᴋʟᴀ ᴇᴋʟᴇʏɪᴘ ᴋᴜʟʟᴀɴᴀʙɪʟɪʀsɪɴɪᴢ . . ! **"
+  helptext = "**📝 ᴇᴛɪᴋᴇᴛ ᴛᴀɢɢᴇʀ ᴋᴏᴍᴜᴛʟᴀʀɪ\n\n» /ctag < ᴍᴇsᴀᴊɪɴɪᴢ > => 𝚐𝚛𝚞𝚙𝚍𝚊𝚔𝚒 𝚞𝚜𝚎𝚛𝚕𝚎𝚛ｪ 5-𝚕ｪ 𝚝𝚊𝚐 𝚎𝚍𝚎𝚛 .  .  !\n» /tag  < ᴍᴇsᴀᴊɪɴɪᴢ > => 𝚐𝚛𝚞𝚙𝚍𝚊𝚔𝚒 𝚞𝚜𝚎𝚛𝚕𝚎𝚛ｪ 𝚝𝚎𝚔 𝚝𝚎𝚔 𝚝𝚊𝚐 𝚎𝚍𝚎𝚛 . . !\n» /dayan => 𝚝𝚊𝚐ｪ 𝚍𝚊𝚢𝚊𝚗𝚍ｪ𝚛𝚊𝚛. . !\n\n✵ ʙɪʀ ᴄᴏᴋ ᴏᴢᴇʟʟɪɢᴇ sᴀʜɪᴘ @CTaggerBot 'ᴜ ɢʀᴜʙᴜɴᴜᴢᴀ ʀᴀʜᴀᴛʟɪᴋʟᴀ ᴇᴋʟᴇʏɪᴘ ᴋᴜʟʟᴀɴᴀʙɪʟɪʀsɪɴɪᴢ . . ! **"
   await event.reply(helptext,
                     buttons=(
                       [Button.url('🎉  𝗕𝗼𝘁𝘂 𝗚𝗿𝘂𝗯𝗮 𝗘𝗸𝗹𝗲  🎉', 'https://t.me/MytTagBot?startgroup=a')],
