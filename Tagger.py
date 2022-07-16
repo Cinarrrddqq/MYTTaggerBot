@@ -30,7 +30,7 @@ async def cancel(event):
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("●** 𝚜𝚊𝚕𝚊𝚖 ❤️**\n\n● **𝚖𝚎𝚗 𝚐𝚛𝚞𝚙𝚍𝚊𝚔𝚒 𝚑𝚎𝚛𝚔𝚎𝚜ｪ 𝚝𝚊𝚐 𝚎𝚍𝚎 𝚋ｪ𝚕𝚎𝚗 𝚋𝚘𝚝𝚊𝚖 𝚐𝚛𝚞𝚙𝚊 𝚊𝚝ｪ𝚋 𝚢𝚎𝚝𝚔𝚒 𝚟𝚎𝚛𝚖𝚎𝚢ｪ𝚗ｪ𝚣 𝚔ｪ𝚏𝚊𝚢𝚎𝚝𝚍ｪ elave melumat üçün /help yazın**",
+  await event.reply("●** 𝚜𝚊𝚕𝚊𝚖 ❤️**\n\n● **𝚖𝚎𝚗 𝚐𝚛𝚞𝚙𝚍𝚊𝚔𝚒 𝚑𝚎𝚛𝚔𝚎𝚜ｪ 𝚝𝚊𝚐 𝚎𝚍𝚎 𝚋ｪ𝚕𝚎𝚗 𝚋𝚘𝚝𝚊𝚖 𝚐𝚛𝚞𝚙𝚊 𝚊𝚝ｪ𝚋 𝚢𝚎𝚝𝚔𝚒 𝚟𝚎𝚛𝚖𝚎𝚢ｪ𝚗ｪ𝚣 𝚔ｪ𝚏𝚊𝚢𝚎𝚝𝚍ｪ elave melumat üçün /kömek yazın**",
               buttons=(
                       
                     
@@ -39,20 +39,20 @@ async def start(event):
                       
                   
 			   
-		      [Button.url(' 𝗕𝗲𝗻𝗶 𝗚𝗿𝘂𝗯𝗮 𝗘𝗸𝗹𝗲  ', 'https://t.me/MytTagBot?startgroup=a')],
-                      [Button.url(' 𝗗𝗲𝘀𝘁𝗲𝗸 𝗚𝗿𝘂𝗯𝘂  ',  'https://t.me/lordchattt')], 
+		      [Button.url(' 𝗠𝗲𝗻𝛊 𝗾𝗿𝘂𝗽𝗮 𝗲𝗹𝗮𝘃𝗲 𝗲𝘁  ', 'https://t.me/ctaggergncelbot?startgroup=a')],
+                      [Button.url('  𝗦𝗼𝗵𝗯𝗲𝘁 ',  'https://t.me/creativtemaa')], 
                       [Button.url('  𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿  ', 'https://t.me/nevarisoyumiste')],
                     ),
                     link_preview=False
                    )
-@client.on(events.NewMessage(pattern="^/help$"))
+@client.on(events.NewMessage(pattern="^/kömek$"))
 async def help(event):
-  helptext = "📝 **ᴇᴛɪᴋᴇᴛ ᴛᴀɢɢᴇʀ ᴋᴏᴍᴜᴛʟᴀʀɪ **\n\n**» /ctag < ᴍᴇsᴀᴊɪɴɪᴢ > \nɢʀᴜʙᴛᴀᴋɪ ᴋᴜʟʟᴀɴɪᴄɪʟᴀʀᴀ 5-ʟɪ ᴇᴛɪᴋᴇᴛ ᴀᴛᴀʀ .  .  !**\n\n**» /tag  < ᴍᴇsᴀᴊɪɴɪᴢ > \nɢʀᴜʙᴛᴀᴋɪ ᴋᴜʟʟᴀɴɪᴄɪʟᴀʀᴀ ᴛᴇᴋ ᴛᴇᴋ ᴇᴛɪᴋᴇᴛ ᴀᴛᴀʀ . . !**\n\n**» /dayan => ᴇᴛɪᴋᴇᴛʟᴇᴍᴇ ɪsʟᴇᴍɪɴɪ ᴅᴜʀᴅᴜʀᴜʀ . . !**"
+  helptext = "💣 **ᴇᴛɪᴋᴇᴛ ᴛᴀɢɢᴇʀ ᴋᴏᴍᴜᴛʟᴀʀɪ **\n\n**» /ctag < ᴍᴇsᴀᴊɪɴɪᴢ > \nɢʀᴜʙᴛᴀᴋɪ ᴋᴜʟʟᴀɴɪᴄɪʟᴀʀᴀ 5-ʟɪ ᴇᴛɪᴋᴇᴛ ᴀᴛᴀʀ .  .  !**\n\n**» /tag  < ᴍᴇsᴀᴊɪɴɪᴢ > \nɢʀᴜʙᴛᴀᴋɪ ᴋᴜʟʟᴀɴɪᴄɪʟᴀʀᴀ ᴛᴇᴋ ᴛᴇᴋ ᴇᴛɪᴋᴇᴛ ᴀᴛᴀʀ . . !**\n\n**» /dayan => 𝗧𝗮𝗴 𝗽𝗿𝗼𝘀𝗲𝘀𝗶𝗻𝗶 𝗱𝗮𝘆𝗮𝗻𝗱𝛊𝗿𝗮𝗿 . . !**"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('  𝗕𝗲𝗻𝗶 𝗚𝗿𝘂𝗯𝗮 𝗘𝗸𝗹𝗲  ', 'https://t.me/MytTagBot?startgroup=a')],
-                      [Button.url('  𝗗𝗲𝘀𝘁𝗲𝗸 𝗚𝗿𝘂𝗯𝘂  ',  'https://t.me/lordchattt')],
-                      [Button.url(' 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿  ', 'https://t.me/nevarisoyumiste')],
+                      [Button.url('  𝗠𝗲𝗻𝛊 𝗾𝗿𝘂𝗽𝘂𝗻𝗮 𝗲𝗹𝗮𝘃𝗲 𝗲𝘁  ', 'https://t.me/ctaggergncelbot?startgroup=a')],
+                      [Button.url('  𝗗𝗲𝘀𝘁𝗲𝗸 𝗚𝗿𝘂𝗯𝘂  ',  'https://t.me/creativtemaa')],
+                      [Button.url(' 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿  ', 'https://t.me/qocayeffdi')],
                     ),
                     link_preview=False
                    )
@@ -62,7 +62,7 @@ async def help(event):
   helptext = "**📝 ᴇᴛɪᴋᴇᴛ ᴛᴀɢɢᴇʀ ᴋᴏᴍᴜᴛʟᴀʀɪ\n\n» /ctag < ᴍᴇsᴀᴊɪɴɪᴢ > => 𝚐𝚛𝚞𝚙𝚍𝚊𝚔𝚒 𝚞𝚜𝚎𝚛𝚕𝚎𝚛ｪ 5-𝚕ｪ 𝚝𝚊𝚐 𝚎𝚍𝚎𝚛 .  .  !\n» /tag  < ᴍᴇsᴀᴊɪɴɪᴢ > => 𝚐𝚛𝚞𝚙𝚍𝚊𝚔𝚒 𝚞𝚜𝚎𝚛𝚕𝚎𝚛ｪ 𝚝𝚎𝚔 𝚝𝚎𝚔 𝚝𝚊𝚐 𝚎𝚍𝚎𝚛 . . !\n» /dayan => 𝚝𝚊𝚐ｪ 𝚍𝚊𝚢𝚊𝚗𝚍ｪ𝚛𝚊𝚛. . !\n\n✵ ʙɪʀ ᴄᴏᴋ ᴏᴢᴇʟʟɪɢᴇ sᴀʜɪᴘ @CTaggerBot 'ᴜ ɢʀᴜʙᴜɴᴜᴢᴀ ʀᴀʜᴀᴛʟɪᴋʟᴀ ᴇᴋʟᴇʏɪᴘ ᴋᴜʟʟᴀɴᴀʙɪʟɪʀsɪɴɪᴢ . . ! **"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('🎉  𝗕𝗼𝘁𝘂 𝗚𝗿𝘂𝗯𝗮 𝗘𝗸𝗹𝗲  🎉', 'https://t.me/MytTagBot?startgroup=a')],
+                      [Button.url('🎉  Botu qrupuna əlavə et  🎉', 'https://t.me/MytTagBot?startgroup=a')],
                     ),
                     link_preview=False
                    )
@@ -90,7 +90,7 @@ async def mentionall(event):
   async for admin in client.iter_participants(event.chat_id, filter=ChannelParticipantsAdmins):
     admins.append(admin.id)
   if not event.sender_id in admins:
-    return await event.respond("**Bu komutu sadace yoneticiler kullana bilir😐**")
+    return await event.respond("**Bu komandanı sadəcə adminlər istifadə edə bilər😐**")
   
   if event.pattern_match.group(1):
     mode = "text_on_cmd"
@@ -99,11 +99,11 @@ async def mentionall(event):
     mode = "text_on_reply"
     msg = event.reply_to_msg_id
     if msg == None:
-        return await event.respond("**Geçmiş mesajlar için etiket ede bilmiom**")
+        return await event.respond("**Köhnə mesajlarla tağ edə bilmirəm**")
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
-    return await event.respond("**𝖤𝗍𝗂𝗄𝖾𝗍 𝗒𝖺𝗉𝗆𝖺𝗄 𝗂𝖼𝗂𝗇 𝗌𝖾𝖻𝖾𝗉 𝗒𝗈𝗄**")
+    return await event.respond("**Tağ etmək üçün səbəb yoxdur**")
   else:
-    return await event.respond("**𝖤𝗍𝗂𝗄𝖾𝗍𝖾 𝖻𝖺𝗌𝗅𝖺𝗆𝖺𝗄 𝗂𝖼𝗂𝗇 sebep 𝗒𝖺𝗓𝗂𝗇...!**")
+    return await event.respond("**Tağ etmək üçün səbəb yazın...!**")
   
   if mode == "text_on_cmd":
     emoji_calisan.append(event.chat_id)
@@ -113,7 +113,7 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"[{random.choice(emoji)}](tg://user?id={usr.id}) "
       if event.chat_id not in emoji_calisan:
-        await event.respond("** 𝖤𝗍𝗂𝗄𝖾𝗍𝗅𝖾𝗆𝖾 𝗂𝗌𝗅𝖾𝗆𝗂 𝖻𝖺𝗌𝖺𝗋𝗂𝗒𝗅𝖺 𝖽𝗎𝗋𝖽𝗎𝗋𝗎𝗅𝖽𝗎 **")
+        await event.respond("** Uğurla dayandırıldı **")
         return
       if usrnum == 5:
         await client.send_message(event.chat_id, f"{usrtxt}\n\n{msg}")
@@ -131,7 +131,7 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"[{random.choice(emoji)}](tg://user?id={usr.id}) "
       if event.chat_id not in emoji_calisan:
-        await event.respond("**𝖤𝗍𝗂𝗄𝖾𝗍𝗅𝖾𝗆𝖾 𝗂𝗌𝗅𝖾𝗆𝗂 𝖻𝖺𝗌𝖺𝗋𝗂𝗒𝗅𝖺 𝖽𝗎𝗋𝖽𝗎𝗋𝗎𝗅𝖽𝗎 ...**")
+        await event.respond("**Uğurla dayandırıldı ...**")
         return
       if usrnum == 5:
         await client.send_message(event.chat_id, usrtxt, reply_to=msg)
@@ -167,7 +167,7 @@ async def mentionall(event):
     if msg == None:
         return await event.respond("Önceki Mesajlara Cevab Vermeyin")
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
-    return await event.respond("**𝖤𝗍𝗂𝗄𝖾𝗍 𝗂𝗌𝗅𝖾𝗆𝗂𝗇𝗂 𝖻𝖺𝗌𝗅𝖺𝗍𝗆𝖺𝗄 𝗂𝖼𝗂𝗇 𝗌𝖾𝖻𝖾𝗉 𝗒𝗈𝗄**")
+    return await event.respond("**Tağ etmək üçün səbəb yazın**")
   else:
     return await event.respond("**● ᴇᴛɪᴋᴇᴛ ɪsʟᴇᴍɪɴɪ ʙᴀsʟᴀᴛᴍᴀᴋ ɪᴄɪɴ \n< sᴇʙᴇᴘ > ɢɪʀɪɴ ʏᴀᴅᴀ ʙɪʀ ᴍᴇsᴀᴊɪ ʏᴀɴɪᴛʟᴀʏɪɴ . . !**")
   
