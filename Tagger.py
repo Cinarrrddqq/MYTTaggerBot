@@ -21,7 +21,7 @@ anlik_calisan = []
 
 tekli_calisan = []
 
-@client.on(events.NewMessage(pattern='^(?i)/dayan'))
+@client.on(events.NewMessage(pattern='^(?i)/cancel'))
 async def cancel(event):
   global emoji_calisan
   emoji_calisan.remove(event.chat_id)
@@ -30,21 +30,19 @@ async def cancel(event):
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("●** 𝚜𝚊𝚕𝚊𝚖 ❤️**\n\n● **𝚖𝚎𝚗 𝚐𝚛𝚞𝚙𝚍𝚊𝚔𝚒 𝚑𝚎𝚛𝚔𝚎𝚜ｪ 𝚝𝚊𝚐 𝚎𝚍𝚎 𝚋ｪ𝚕𝚎𝚗 𝚋𝚘𝚝𝚊𝚖 𝚐𝚛𝚞𝚙𝚊 𝚊𝚝ｪ𝚋 𝚢𝚎𝚝𝚔𝚒 𝚟𝚎𝚛𝚖𝚎𝚢ｪ𝚗ｪ𝚣 𝚔ｪ𝚏𝚊𝚢𝚎𝚝𝚍ｪ elave melumat üçün /kömek yazın**",
+  await event.reply("Hi I'm @UserTaggerBot I was created to search all contacts in chat\nMerhaba! Grubunuzdaki Kullanıcıları Etiketlemek İçin Yaratıldım. Beni Grubunuza Ekleyin ve Gerisini Bana Bırakın",
               buttons=(
-                      
-                    
-                                       
-	
-                      
-                  
-			   
-		      [Button.url(' 𝗠𝗲𝗻𝛊 𝗾𝗿𝘂𝗽𝗮 𝗲𝗹𝗮𝘃𝗲 𝗲𝘁  ', 'https://t.me/CreativTaggerBot?startgroup=a')],
-                      [Button.url('  𝗦𝗼𝗵𝗯𝗲𝘁 ',  'https://t.me/creativtemaa')], 
-                      [Button.url('  𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿  ', 'https://t.me/Rexxuxxxnx')],
+                          [
+                                              Button.url
+                       ('➕️ Beni Grubuna Ekle ➕️', 'https://t.me/usersTagger1Bot?startgroup=a'),   
+                      ],
+                      [
+                       Button.url('🎛Komutlar', 'https://t.me/UserTagger/5'),
+                       Button.url('📣Resmi kanal', 'https://t.me/usertagger')
+                      ],
                     ),
-                    link_preview=False
-                   )
+                    link_preview=False)
+                    
 @client.on(events.NewMessage(pattern="^/kömek$"))
 async def help(event):
   helptext = "💣 **ᴇᴛɪᴋᴇᴛ ᴛᴀɢɢᴇʀ ᴋᴏᴍᴜᴛʟᴀʀɪ **\n\n**» /ctag < ᴍᴇsᴀᴊɪɴɪᴢ > \nɢʀᴜʙᴛᴀᴋɪ ᴋᴜʟʟᴀɴɪᴄɪʟᴀʀᴀ 5-ʟɪ ᴇᴛɪᴋᴇᴛ ᴀᴛᴀʀ .  .  !**\n\n**» /tag  < ᴍᴇsᴀᴊɪɴɪᴢ > \nɢʀᴜʙᴛᴀᴋɪ ᴋᴜʟʟᴀɴɪᴄɪʟᴀʀᴀ ᴛᴇᴋ ᴛᴇᴋ ᴇᴛɪᴋᴇᴛ ᴀᴛᴀʀ . . !**\n\n**» /dayan => 𝗧𝗮𝗴 𝗽𝗿𝗼𝘀𝗲𝘀𝗶𝗻𝗶 𝗱𝗮𝘆𝗮𝗻𝗱𝛊𝗿𝗮𝗿 . . !**"
@@ -69,7 +67,7 @@ async def help(event):
 	
 	
 
-@client.on(events.NewMessage(pattern='^(?i)/dayan'))
+@client.on(events.NewMessage(pattern='^(?i)/cancel'))
 async def cancel(event):
   global emoji_calisan
   emoji_calisan.remove(event.chat_id)
@@ -140,13 +138,13 @@ async def mentionall(event):
         usrtxt = ""
 
 
-@client.on(events.NewMessage(pattern='^(?i)/dayan'))
+@client.on(events.NewMessage(pattern='^(?i)/cancel'))
 async def cancel(event):
   global emoji_calisan
   emoji_calisan.remove(event.chat_id)
 
 
-@client.on(events.NewMessage(pattern="^/ctag ?(.*)"))
+@client.on(events.NewMessage(pattern="^/utag ?(.*)"))
 async def mentionall(event):
   global anlik_calisan
   if event.is_private:
@@ -167,9 +165,9 @@ async def mentionall(event):
     if msg == None:
         return await event.respond("Önceki Mesajlara Cevab Vermeyin")
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
-    return await event.respond("**Tağ etmək üçün səbəb yazın**")
+    return await event.respond("**Kullanıcıları çağırırken onlara bir mesajın olmasına ne dersin? 🤔\nÖrnek Komut /utag Merhabalar**")
   else:
-    return await event.respond("**● ᴇᴛɪᴋᴇᴛ ɪsʟᴇᴍɪɴɪ ʙᴀsʟᴀᴛᴍᴀᴋ ɪᴄɪɴ \n< sᴇʙᴇᴘ > ɢɪʀɪɴ ʏᴀᴅᴀ ʙɪʀ ᴍᴇsᴀᴊɪ ʏᴀɴɪᴛʟᴀʏɪɴ . . !**")
+    return await event.respond("**Kullanıcıları çağırırken onlara bir mesajın olmasına ne dersin? 🤔\nÖrnek Komut /utag Merhabala**")
   
   if mode == "text_on_cmd":
     anlik_calisan.append(event.chat_id)
@@ -179,7 +177,7 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"**[{usr.first_name}](tg://user?id={usr.id})** , "
       if event.chat_id not in anlik_calisan:
-        await event.respond("**● ᴇᴛɪᴋᴇᴛʟᴇᴍᴇ ɪsʟᴇᴍɪ ʙᴀsᴀʀɪʏʟᴀ ᴅᴜʀᴅᴜʀᴜʟᴅᴜ . . !**")
+        await event.respond("**Etiket İşlemi Başlatıldı**")
         return
       if usrnum == 5:
         await client.send_message(event.chat_id, f"{msg}\n{usrtxt}")
@@ -197,7 +195,7 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"**[{usr.first_name}](tg://user?id={usr.id})** , "
       if event.chat_id not in anlik_calisan:
-        await event.respond("**● ᴇᴛɪᴋᴇᴛʟᴇᴍᴇ ɪsʟᴇᴍɪ ʙᴀsᴀʀɪʏʟᴀ ᴅᴜʀᴅᴜʀᴜʟᴅᴜ . . !**")
+        await event.respond("**Etiket işlemi başarıyla durduruldu**")
         return
       if usrnum == 5:
         await client.send_message(event.chat_id, usrtxt, reply_to=msg)
@@ -205,7 +203,7 @@ async def mentionall(event):
         usrnum = 0
         usrtxt = ""
 
-@client.on(events.NewMessage(pattern='^(?i)/dayan'))
+@client.on(events.NewMessage(pattern='^(?i)/cancel'))
 async def cancel(event):
   global anlik_calisan
   anlik_calisan.remove(event.chat_id)
